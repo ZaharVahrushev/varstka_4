@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Шапка */
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav {
+    width: 40%;
+}
+
+.header__nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav ul li a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1a3a27;
+
+    transition: color 0.3s;
+}
+
+.header__nav ul li a:hover {
+    color: #4ea366;
+}
+
+.header__nav ul li a:active {
+    color: #2a7941;
+}
+
+.header__reservation {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__reservation a {
+    width: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: right;
+    color: #1a3a27;
+
+    transition: color 0.3s;
+}
+
+.header__reservation a:hover {
+    color: #3b9254;
+}
+
+.header__reservation a:active {
+    color: #3b9254;
+}
+
+.header__reservation button {
+    border: none;
+    border-radius: 10px;
+    padding: 16px 30px;
+    width: 191px;
+    height: 56px;
+    background: #3b9254;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+
+    transition: background 0.3s;
+}
+
+.header__reservation button:hover {
+    background: #4ea366;
+}
+
+.header__reservation button:active {
+    background: #2a7941;
+}
+
+
+/* main */
+
+/* slider */
+
+.slider {
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider__container {
+    width: 80%;
+    background-image: url(./img/main-pic-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slide__btnleft {
+    width: 78px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.slide__btnleft button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 30px;
+    width: 56px;
+    height: 56px;
+    background: #eaf5ed;
+    cursor: pointer;
+}
+
+.slide__btnright {
+    width: 78px;
+    display: flex;
+    justify-content: flex-start ;
+}
+
+.slide__btnright button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 30px;
+    width: 56px;
+    height: 56px;
+    background: #eaf5ed;
+    cursor: pointer;
+}
+
+.slide__inf {
+    width: 672px;
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: center;
+    gap: 28px;
+}
+
+.slide__inf div{
+    width: 672px;
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.slide__inf div h1 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 110%;
+    text-align: center;
+    color: #fff;
+}
+
+.slide__inf div p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.slide__inf button {
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 288px;
+    height: 64px;
+    background: #3b9254;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+}
