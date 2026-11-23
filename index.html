@@ -9,7 +9,7 @@
 <body>
     <header>
         <section class="header__container">
-            <img src="./img/logo.png" alt="logo">
+            <a href=""><img src="./img/logo.png" alt="logo" ></a>
 
             <nav class="header__nav">
                 <ul>
@@ -44,9 +44,39 @@
             </div>
         </section>
 
-        <section class="form">
-            <div class="form__container">
-                
+        <section class="booking">
+            <div class="booking__container">
+                <div class="booking__container__forelement">
+                <h2 class="booking__h2">Забронировать домик</h2>
+
+                <form action="" class="booking__form">
+                    <div class="form__group">
+                        <label for="" class="form__label">Заезд</label>
+                        <div class="input__wrapper">
+                            <input type="data" class="form__input" placeholder="22.10.2023">
+                            <img class="input__icon" src="./img/calendar_day_month_icon1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="" class="form__label">выезд</label>
+                        <div class="input__wrapper">
+                            <input type="data" class="form__input" placeholder="23.10.2023">
+                            <img class="input__icon" src="./img/calendar_day_month_icon1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="" class="form__label">количество гостей</label>
+                        <div class="input__wrapper">
+                            <input type="number" class="form__input" placeholder="2 взрослых, 0 детей">
+                            <img class="input__icon" src="./img/user.png" alt="">
+                        </div>
+                    </div>
+
+                    <button class="booking__btn">Забронировать</button>
+                </form>
+                </div>
             </div>
         </section>
 
