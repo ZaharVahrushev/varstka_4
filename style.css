@@ -295,12 +295,13 @@ header {
 
 .input__wrapper {
     border-radius: 10px;
-    padding: 16px 15px;
+    /* padding: 16px 15px; */
     width: 80%;
     height: 4vh;
     background: #fff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .form__input {
     width: 78%;
@@ -327,10 +328,19 @@ header {
 }
 
 .booking__btn {
+    border: none;
+    background: #232120;
     border-radius: 10px;
     padding: 16px 30px;
     width: 191px;
     height: 56px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 
