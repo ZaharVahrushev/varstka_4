@@ -247,7 +247,7 @@ header {
 
 .booking__container {
     width: 80%;
-    height: 85%;
+    height: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -279,8 +279,8 @@ header {
 }
 
 .form__group {
-    width: 18vw;
-    height: 9vh;
+    width: 19vw;
+    height: 8vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -295,9 +295,15 @@ header {
 
 .input__wrapper {
     border-radius: 10px;
+<<<<<<< HEAD
     /* padding: 16px 15px; */
     width: 80%;
     height: 4vh;
+=======
+    padding: 16px 15px;
+    width: 90%;
+    height: 3vh;
+>>>>>>> 8c4f1f88d8cf85ed49cb55a23c70b181850e87c2
     background: #fff;
     display: flex;
     justify-content: space-between;
@@ -324,17 +330,18 @@ header {
 }
 
 .input__icon {
-
+    width: 24px;
+    height: 24px;
 }
 
 .booking__btn {
     border: none;
-    background: #232120;
     border-radius: 10px;
-    padding: 16px 30px;
-    width: 191px;
-    height: 56px;
-
+    /* padding: 16px 30px; */
+    width: 13vw;
+    height: 5.6vh;
+    align-self: flex-end;
+    background: #232120;
     font-weight: 600;
     font-size: 14px;
     line-height: 170%;
