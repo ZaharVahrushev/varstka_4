@@ -417,3 +417,376 @@ header {
 }
 
 
+@media (min-width: 1920px) {
+    .besthouse {
+        height: 65vh;
+    }
+
+    .besthouse__img__left  {
+        width: 24.35%;
+    }
+
+    .besthouse__img__right {
+        width: 24.35%;
+    }
+}
+
+@media (width: 2560px) {
+    .besthouse {
+        height: 55vh;
+    }
+
+    .besthouse__img__left  {
+        width: 18.35%;
+    }
+
+    .besthouse__img__right {
+        width: 18.35%;
+    }
+}
+
+
+
+
+
+.arenda {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arenda__container {
+    width: 80%;
+    height: 80%;
+    background-image: url(./img/Rent.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arenda__container__section {
+    width: 90%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.arenda__container__section h2 {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 140%;
+    color: #1a3a27; 
+    height: 8%;
+
+}
+
+.arenda__slaider {
+    width: 100%;
+    height: 65%;
+    background-image: url(./img/arendaSlider.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arenda__slaider__btn {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arenda__slaider__btn button {
+    border-radius: 10px;
+    padding: 16px 30px;
+    width: 56px;
+    height: 56px;
+    background: #eaf5ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.arenda__inf {
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arenda__text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.arenda__text p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 150%;
+    color: #1a3a27;
+}
+
+.arenda__text div {
+    display: flex;
+    column-gap: 10px;
+}
+
+.arenda__text div p {
+    border-radius: 30px;
+    padding: 4px 14px;
+    width: 180px;
+    height: 32px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 160%;
+    color: #515753;
+}
+
+.arenda__inf button {
+    border: none;
+    border-radius: 10px;
+    padding: 16px 30px;
+    width: 154px;
+    height: 56px;
+    background: #3b9254;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
+
+.services {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__container {
+    width: 80%;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.services__container h2 {
+    font-weight: 400;
+    font-size: 2.25rem;;
+    line-height: 140%;
+    color: #1a3a27;
+}
+
+.services__inf {
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.services__inf__btns {
+    display: flex;
+    gap: 10px;
+}
+
+.services__inf__btn1 {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 30px;
+    width: 122px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #eaf5ed;
+
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 170%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2a7941;
+}
+
+.services__inf__btn2 {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 12px 30px;
+    width: 202px;
+    height: 48px;
+    background: #2a7941;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 170%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.services__inf__btn3 {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 12px 30px;
+    width: 134px;
+    height: 48px;
+    background: #eaf5ed;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 170%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2a7941;
+}
+
+.services__inf__btn4 {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 12px 30px;
+    width: 138px;
+    height: 48px;
+    background: #eaf5ed;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 170%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2a7941;
+}
+
+.services__inf__cards {
+    display: flex;
+    gap: 20px 40px;
+    flex-wrap: wrap;
+}
+
+.services__inf__card p {
+    font-weight: 400;
+    font-size: 1rem ;
+    line-height: 150%;
+    color: #1a3a27;
+}
+
+
+
+
+
+.offers {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers__container {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    gap: 20px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offers__container img {
+    width: 56px;
+    height: 56px;
+}
+
+.offers__section__card1 {
+    height: 200px;
+    width: 40%;
+    border-radius: 10px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers__section__card2 {
+    height: 200px;
+    width: 57%;
+    border-radius: 10px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers__section__card3 {
+    height: 200px;
+    width: 23%;
+    border-radius: 10px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers__section__card4 {
+    height: 200px;
+    width: 49%;
+    border-radius: 10px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers__section__card5 {
+    height: 200px;
+    width: 23%;
+    border-radius: 10px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers__card {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    
+}
+
+.offers__card p {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 140%;
+    color: #1a3a27;
+}
